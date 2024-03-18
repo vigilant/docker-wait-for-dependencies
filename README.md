@@ -1,3 +1,7 @@
+## Forked from dadarek/docker-wait-for-dependencies
+Dadarek's publicly accessible docker container was built targetting only linux/amd64 but Vigilant also needs to deploy to linux/arm64 to take advantage of the AWS Graviton instance types.
+Meant to be integrated as part of the Creating multi-arch docker images with buildx recipe from Andrew Lock at https://andrewlock.net/creating-multi-arch-docker-images-for-arm64-from-windows/
+
 ## Example usage:
 
 Sample `docker-compose.yml`:
